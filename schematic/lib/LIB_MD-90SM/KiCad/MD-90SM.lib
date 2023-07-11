@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MD-90SM
+#/4626741/470609/2.50/12/4/Connector
+DEF MD-90SM J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "MD-90SM" 750 200 50 H V L CNN
+F2 "MD90SM" 750 100 50 H I L CNN
+F3 "https://www.cuidevices.com/product/resource/md-sm-series.pdf" 750 0 50 H I L CNN
+F4 "DIN Connectors Mini Din Connectors" 750 -100 50 H I L CNN "Description"
+F5 "12.9" 750 -200 50 H I L CNN "Height"
+F6 "CUI Devices" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MD-90SM" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-MD-90SM" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/MD-90SM?qs=WyjlAZoYn53AvrHguf2LdQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MD-90SM" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/md-90sm/cui-devices" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 900 0 200 L 50 50 0 0 P
+X 8 8 900 -100 200 L 50 50 0 0 P
+X 9 9 900 -200 200 L 50 50 0 0 P
+X MH1 MH1 900 -300 200 L 50 50 0 0 P
+X MH2 MH2 900 -400 200 L 50 50 0 0 P
+X MH3 MH3 900 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "RCJ-041")(type "KiCad")(uri "${KIPRJMOD}/lib/RCJ-041/RCJ-041.kicad_sym")(options "")(descr ""))
+  (lib (name "Variable_Inductors")(type "KiCad")(uri "${KIPRJMOD}/lib/VARIABLE_INDUCTORS/Variable_Inductors.kicad_sym")(options "")(descr ""))
+  (lib (name "Vintage_VDP")(type "KiCad")(uri "${KIPRJMOD}/lib/VINTAGE_VDP/Vintage_VDP.kicad_sym")(options "")(descr ""))
+  (lib (name "RF_Modulators")(type "KiCad")(uri "${KIPRJMOD}/lib/RF_MODULATORS/RF_Modulators.kicad_sym")(options "")(descr ""))
+  (lib (name "Analog_Switch_II")(type "KiCad")(uri "${KIPRJMOD}/lib/ANALOG_SWITCH_II/Analog_Switch_II.kicad_sym")(options "")(descr ""))
+  (lib (name "Video_II")(type "KiCad")(uri "${KIPRJMOD}/lib/VIDEO_II/Video_II.kicad_sym")(options "")(descr ""))
+  (lib (name "MD-90SM")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_MD-90SM/KiCad/MD-90SM.kicad_sym")(options "")(descr ""))
+)
