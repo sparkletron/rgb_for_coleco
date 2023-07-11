@@ -46,3 +46,6 @@
   wire inserted and soldered to complete the connection (excess resistor leads is a great option).
 
   Recommend removing the Y, Pb, Pr inductors that are inline if they are there. They will cause color smearing.
+
+  Output composite resistors and cap are optional, can replace the resistor connecting the output to the inverting input with a jumper.
+  If no gain is wanted.
