@@ -1,5 +1,5 @@
 # RGB for Colecovision
-### Schematic and PCB reproduction.
+### Schematic and PCB for production of a sub rf replacement board that is Genesis 9 pin compatible.
 
 ---
 
