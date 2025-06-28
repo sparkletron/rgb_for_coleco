@@ -57,24 +57,11 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|127728001|89206199|14341659-456d-4f21-977d-26c8b30275f3|89ab2a14-50c3-4919-b5c4-a92019390055",
-        "courtyards_overlap|136872001|64237999|53e16510-3086-42ef-8f4b-540cf5492fe3|c8e5ddc4-6f87-4357-9251-99d39c231543",
-        "courtyards_overlap|143182019|94608999|88789884-0161-4046-880e-6e38194151ad|e6cd0a15-b31a-4bd8-802c-6502731b0fc6",
-        "courtyards_overlap|145174925|79379014|6b010ab2-4458-4712-9bfc-f970f104e342|72287a40-b131-4514-a97b-363a0a0aabec",
-        "courtyards_overlap|147497723|83590001|431fd471-4986-452c-b124-f190d51687d6|6b010ab2-4458-4712-9bfc-f970f104e342",
-        "courtyards_overlap|151281001|92494814|b2e4ff3b-613f-4f98-8937-b788015c14ed|cc42bb28-a052-4b39-adf1-e21c1a4a4423",
         "courtyards_overlap|152585001|62236001|fa03ec7f-6af0-4c48-91aa-33817fb04eee|fb68bfd3-7b1b-4d07-b6cf-16b9db971ba0",
-        "courtyards_overlap|153269601|83590001|431fd471-4986-452c-b124-f190d51687d6|46685030-8c3b-4202-a454-ed4da745200f",
-        "lib_footprint_mismatch|126824012|91340000|f3822d00-ad7c-4045-b405-222e0bfa9050|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|160174000|87020400|14fad5a1-1012-43e4-a3cd-9a671d43c946|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|144789600|92686801|0d68213a-b738-4d17-9510-95cd99b637c3|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|149361600|92694200|c3f1a2fa-9ef3-4185-9663-b81443c47999|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|143368762|93646010|bd1b8f16-759f-4190-bd6a-84d11a339b4a|c8df5d02-0da3-4bae-9a2b-e8b177e799ca",
-        "silk_overlap|143787800|92898048|1b76fa06-fb95-4c0d-b775-2bbf3f5e2dc1|c8df5d02-0da3-4bae-9a2b-e8b177e799ca",
-        "silk_overlap|143925887|80237000|73470bb3-5e3b-425a-b58e-132951316f46|2c86e411-1466-48a8-8c23-66847d8e68fa",
         "silk_overlap|144160753|83708657|76be0543-3332-4d54-bb8f-bda0eb40d360|2c86e411-1466-48a8-8c23-66847d8e68fa",
         "silk_overlap|144174922|83720000|37f04e6e-ccfa-4efd-98e5-7158e5240b59|2c86e411-1466-48a8-8c23-66847d8e68fa",
-        "silk_overlap|151356600|92224399|e3c7a673-4b0a-4fd3-a137-514ec52c8cde|e1509bf8-28f4-47a8-8079-931faa962147",
         "silk_overlap|151411000|92747061|e1509bf8-28f4-47a8-8079-931faa962147|34470c6a-de27-4f5b-ad96-19c884ec3cfe",
         "silk_overlap|151538287|92877000|34c653ce-5996-4b4b-aa72-179f3eabdc5a|34470c6a-de27-4f5b-ad96-19c884ec3cfe"
       ],
@@ -205,6 +192,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -490,14 +484,76 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -511,6 +567,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -536,6 +597,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -543,7 +605,7 @@
   "sheets": [
     [
       "77a0bd3f-544c-4541-a4e0-43e85aebb04c",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
